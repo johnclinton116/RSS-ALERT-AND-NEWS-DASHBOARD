@@ -63,33 +63,26 @@ def _cleanup_old_logs(log_dir, retention_days=LOG_RETENTION_DAYS):
         pass
 
 def _setup_logging():
-    """Set up logging — file handler when filesystem is writable, console-only otherwise (e.g. Vercel)."""
+    """Set up file logging to the specified path, with fallback to script dir."""
     global LOG_DIR
+    try:
+        os.makedirs(LOG_DIR, exist_ok=True)
+    except Exception:
+        LOG_DIR = _FALLBACK_LOG_DIR
+        os.makedirs(LOG_DIR, exist_ok=True)
+    # Auto-delete log files older than LOG_RETENTION_DAYS
+    _cleanup_old_logs(LOG_DIR)
+    log_filename = "jcfalert_" + datetime.now().strftime("%Y%m%d") + ".log"
+    log_path = os.path.join(LOG_DIR, log_filename)
     logger = logging.getLogger("jcfalert")
     logger.setLevel(logging.INFO)
-    fmt = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
     if not logger.handlers:
-        # Always add a stream (console) handler — works everywhere including Vercel
+        fh = logging.FileHandler(log_path, encoding="utf-8")
+        fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S"))
+        logger.addHandler(fh)
         sh = logging.StreamHandler()
-        sh.setFormatter(fmt)
+        sh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S"))
         logger.addHandler(sh)
-        # Try to add a file handler; silently skip if filesystem is read-only
-        _file_handler_added = False
-        for _dir in [LOG_DIR, _FALLBACK_LOG_DIR, "/tmp"]:
-            try:
-                os.makedirs(_dir, exist_ok=True)
-                _cleanup_old_logs(_dir)
-                log_path = os.path.join(_dir, "jcfalert_" + datetime.now().strftime("%Y%m%d") + ".log")
-                fh = logging.FileHandler(log_path, encoding="utf-8")
-                fh.setFormatter(fmt)
-                logger.addHandler(fh)
-                LOG_DIR = _dir
-                _file_handler_added = True
-                break
-            except Exception:
-                continue
-        if not _file_handler_added:
-            logger.info("File logging unavailable (read-only filesystem) — logging to console only.")
     return logger
 
 _log = _setup_logging()
