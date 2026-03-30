@@ -8371,6 +8371,36 @@ def api_assign_news():
 
 # MAIN
 # ══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MODULE-LEVEL STARTUP — runs when imported by Vercel (or any WSGI server)
+# init_db() creates tables and the default admin user on first boot.
+# auto_fetch_loop runs in a daemon thread to pull RSS feeds periodically.
+# ══════════════════════════════════════════════════════════════════════════════
+def _startup():
+    try:
+        init_db()
+        _log.info("[DB] init_db OK")
+        _db_status["status"] = "connected"
+    except Exception as _e:
+        _log.error(f"[DB] Init error: {_e}")
+        _db_status.update({"status": "disconnected", "error": str(_e)[:100]})
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+        cur.execute("SELECT svalue FROM settings WHERE skey='fetch_interval'")
+        row = cur.fetchone()
+        if row:
+            global FETCH_INTERVAL
+            FETCH_INTERVAL = int(row[0]) * 60
+        conn.close()
+    except Exception:
+        pass
+    threading.Thread(target=auto_fetch_loop, daemon=True).start()
+    _log.info("[Startup] auto_fetch_loop thread started")
+
+_startup()
+
 if __name__ == '__main__':
     print("="*60)
     print("  JCF Alert & News Dashboard — v1")
