@@ -109,9 +109,18 @@ DB_CONFIG = {
     "port":     1433,
 }
 
-# SQLite fallback path (used if MSSQL unavailable; synced back to MSSQL when reconnected)
+# SQLite fallback path — use /tmp if the script directory is read-only (e.g. Vercel)
 import sqlite3 as _sqlite3
-DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "news_fallback.db")
+_default_db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "news_fallback.db")
+try:
+    _test_dir = os.path.dirname(_default_db_path)
+    os.makedirs(_test_dir, exist_ok=True)
+    _probe = os.path.join(_test_dir, ".write_test")
+    open(_probe, "w").close()
+    os.remove(_probe)
+    DB_PATH = _default_db_path
+except OSError:
+    DB_PATH = "/tmp/news_fallback.db"
 _using_sqlite_fallback = False   # set True when MSSQL is down
 
 # DB & network status tracking
@@ -700,6 +709,15 @@ def _check_net_status():
 
 def _get_sqlite_fallback():
     """Return a SQLite connection as fallback when MSSQL is unavailable."""
+    global DB_PATH
+    # Ensure DB_PATH is writable — fall back to /tmp on read-only filesystems (e.g. Vercel)
+    try:
+        os.makedirs(os.path.dirname(DB_PATH) if os.path.dirname(DB_PATH) else ".", exist_ok=True)
+        _probe = DB_PATH + ".probe"
+        open(_probe, "a").close()
+        os.remove(_probe)
+    except OSError:
+        DB_PATH = "/tmp/news_fallback.db"
     conn = _sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
     conn.row_factory = _sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
@@ -731,6 +749,21 @@ def _get_sqlite_fallback():
     c.execute("""CREATE TABLE IF NOT EXISTS custom_feeds (
         id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL,
         url TEXT UNIQUE NOT NULL, is_active INTEGER DEFAULT 1, created_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS article_remarks (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, article_id TEXT, user_id INTEGER,
+        username TEXT, full_name TEXT, remark TEXT, created_at TEXT, updated_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS news_assignments (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, article_id TEXT, assigned_by INTEGER,
+        assigned_to INTEGER, assigned_at TEXT, note TEXT DEFAULT '')""")
+    c.execute("""CREATE TABLE IF NOT EXISTS chat_messages (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, from_user_id INTEGER, to_user_id INTEGER,
+        message TEXT, article_id TEXT, is_read INTEGER DEFAULT 0, created_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS login_device_log (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER, username TEXT,
+        ip TEXT, user_agent TEXT, login_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS feed_health_log (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, feed_name TEXT, url TEXT,
+        status TEXT, item_count INTEGER, error_msg TEXT, checked_at TEXT)""")
     # Default users
     if not c.execute("SELECT 1 FROM users WHERE username='admin'").fetchone():
         c.execute("INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,1,?)",
@@ -944,6 +977,8 @@ def init_db():
                         ('admin', hash_pw('admin@123'), 'Administrator', 'admin', 1, datetime.now().isoformat()))
             cur.execute("IF NOT EXISTS (SELECT 1 FROM users WHERE username='icomply') INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
                         ('icomply', hash_pw('m00se@123'), 'Support', 'admin', 1, datetime.now().isoformat()))
+            cur.execute("IF NOT EXISTS (SELECT 1 FROM users WHERE username='john') INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
+                        ('john', hash_pw('123456'), 'John', 'viewer', 1, datetime.now().isoformat()))
             conn.commit()
             print("[DB] MSSQL ready")
         else:
@@ -1012,6 +1047,9 @@ def init_db():
             if not c.execute("SELECT 1 FROM users WHERE username='icomply'").fetchone():
                 c.execute("INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
                           ('icomply', hash_pw('m00se@123'), 'Support', 'admin', 1, datetime.now().isoformat()))
+            if not c.execute("SELECT 1 FROM users WHERE username='john'").fetchone():
+                c.execute("INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
+                          ('john', hash_pw('123456'), 'John', 'viewer', 1, datetime.now().isoformat()))
             conn.commit()
     finally:
         conn.close()
@@ -6459,9 +6497,14 @@ def api_change_password():
             row = conn.execute("SELECT password_hash FROM users WHERE id=?", (u['id'],)).fetchone()
             ph = row['password_hash'] if row else None
         if ph != hash_pw(old_pw): return jsonify({"ok": False, "error": "Current password incorrect"})
-        if USE_MSSQL: conn.cursor().execute("UPDATE users SET password_hash=? WHERE id=?", (hash_pw(new_pw), u['id']))
-        else: conn.execute("UPDATE users SET password_hash=? WHERE id=?", (hash_pw(new_pw), u['id']))
-        conn.commit(); return jsonify({"ok": True})
+        new_hash = hash_pw(new_pw)
+        if USE_MSSQL: conn.cursor().execute("UPDATE users SET password_hash=? WHERE id=?", (new_hash, u['id']))
+        else: conn.execute("UPDATE users SET password_hash=? WHERE id=?", (new_hash, u['id']))
+        conn.commit()
+        # Refresh session so new password is active immediately (no revert on next page load)
+        session['user'] = dict(u)
+        session.modified = True
+        return jsonify({"ok": True})
     finally:
         conn.close()
 
@@ -6817,7 +6860,7 @@ def api_set_fetch_interval():
     FETCH_INTERVAL=mins*60
     conn=get_db()
     try:
-        if USE_MSSQL:
+        if USE_MSSQL and not _using_sqlite_fallback:
             cur=conn.cursor();cur.execute("IF EXISTS(SELECT 1 FROM settings WHERE skey='fetch_interval') UPDATE settings SET svalue=? WHERE skey='fetch_interval' ELSE INSERT INTO settings(skey,svalue) VALUES('fetch_interval',?)",(str(mins),str(mins)))
         else: conn.execute("INSERT OR REPLACE INTO settings(skey,svalue) VALUES('fetch_interval',?)",(str(mins),))
         conn.commit();return jsonify({"ok":True,"minutes":mins})
@@ -8353,6 +8396,36 @@ def api_assign_news():
 
 # MAIN
 # ══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MODULE-LEVEL STARTUP — runs when imported by Vercel (or any WSGI server)
+# init_db() creates tables and the default admin user on first boot.
+# auto_fetch_loop runs in a daemon thread to pull RSS feeds periodically.
+# ══════════════════════════════════════════════════════════════════════════════
+def _startup():
+    try:
+        init_db()
+        _log.info("[DB] init_db OK")
+        _db_status["status"] = "connected"
+    except Exception as _e:
+        _log.error(f"[DB] Init error: {_e}")
+        _db_status.update({"status": "disconnected", "error": str(_e)[:100]})
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+        cur.execute("SELECT svalue FROM settings WHERE skey='fetch_interval'")
+        row = cur.fetchone()
+        if row:
+            global FETCH_INTERVAL
+            FETCH_INTERVAL = int(row[0]) * 60
+        conn.close()
+    except Exception:
+        pass
+    threading.Thread(target=auto_fetch_loop, daemon=True).start()
+    _log.info("[Startup] auto_fetch_loop thread started")
+
+_startup()
+
 if __name__ == '__main__':
     print("="*60)
     print("  JCF Alert & News Dashboard — v1")
