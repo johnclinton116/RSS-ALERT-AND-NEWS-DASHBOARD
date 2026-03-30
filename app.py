@@ -109,9 +109,18 @@ DB_CONFIG = {
     "port":     1433,
 }
 
-# SQLite fallback path (used if MSSQL unavailable; synced back to MSSQL when reconnected)
+# SQLite fallback path — use /tmp if the script directory is read-only (e.g. Vercel)
 import sqlite3 as _sqlite3
-DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "news_fallback.db")
+_default_db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "news_fallback.db")
+try:
+    _test_dir = os.path.dirname(_default_db_path)
+    os.makedirs(_test_dir, exist_ok=True)
+    _probe = os.path.join(_test_dir, ".write_test")
+    open(_probe, "w").close()
+    os.remove(_probe)
+    DB_PATH = _default_db_path
+except OSError:
+    DB_PATH = "/tmp/news_fallback.db"
 _using_sqlite_fallback = False   # set True when MSSQL is down
 
 # DB & network status tracking
