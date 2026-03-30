@@ -1,0 +1,37 @@
+# ══════════════════════════════════════════════════════
+#  JCF Alert & News Dashboard — requirements.txt
+#  Install all with:  pip install -r requirements.txt
+# ══════════════════════════════════════════════════════
+
+# ── Core Web Framework ────────────────────────────────
+flask>=2.3.0
+
+# ── Database ──────────────────────────────────────────
+# SQLite is built into Python — no install needed.
+# MSSQL support (optional — app runs fine on SQLite without this):
+pyodbc>=4.0.39
+
+# ── HTTP / RSS Fetching ───────────────────────────────
+requests>=2.31.0
+
+# ── PDF Export ────────────────────────────────────────
+fpdf2>=2.7.6
+Pillow>=10.0.0
+
+# ── Excel Export ─────────────────────────────────────
+openpyxl>=3.1.2
+
+# ── Article Summarisation (optional) ─────────────────
+newspaper3k>=0.2.8
+nltk>=3.8.1
+lxml>=4.9.3
+lxml-html-clean>=0.1.0
+
+# ── QR Code (LAN access panel) ───────────────────────
+qrcode[pil]>=7.4.2
+
+# ── Notes ─────────────────────────────────────────────
+# Python 3.9+ recommended (tested on 3.10, 3.11, 3.12)
+# Windows: ODBC Driver 17 for SQL Server must be installed
+#   separately for MSSQL support — app works on SQLite without it.
+# Linux/Mac: install unixodbc-dev before pyodbc.

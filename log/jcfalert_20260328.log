@@ -1,0 +1,962 @@
+2026-03-28 15:17:01 [INFO] JCF Alert News Dashboard starting up
+2026-03-28 15:17:21 [INFO] [DB] Connected OK
+2026-03-28 15:17:21 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:17:28 [WARNING] [RSS] Financial Express: HTTP 410 (gone) — https://www.financialexpress.com/feed/
+2026-03-28 15:17:28 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:17:28 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:17:28 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:17:30 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:17:30 [WARNING] [RSS] HT Business: 404 Not Found — https://feeds.feedburner.com/HindustanTimesBusiness
+2026-03-28 15:17:30 [WARNING] [RSS] Business Standard: 404 Not Found — https://feeds.feedburner.com/business-standard/pFxy
+2026-03-28 15:17:30 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:17:33 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:17:33 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:17:34 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:17:34 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:17:34 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:17:35 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:17:37 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:17:37 [WARNING] [RSS] Telegraph India: 404 Not Found — https://feeds.feedburner.com/telegraphindia/AWHH
+2026-03-28 15:17:38 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:17:38 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:17:38 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:17:39 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:17:40 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:17:40 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:17:41 [INFO] LOGIN user=admin ip=127.0.0.1 device=Laptop/PC os=Windows browser=Edge
+2026-03-28 15:17:45 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:17:45 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:17:45 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:17:45 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:17:45 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:17:45 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:17:45 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:17:47 [INFO] [RSS] Google: OK on retry 2 — 38 items
+2026-03-28 15:17:47 [INFO] [RSS] Google: 38 items
+2026-03-28 15:17:48 [INFO] [RSS] NDTV Business: OK on retry 2 — 20 items
+2026-03-28 15:17:48 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:17:49 [INFO] [RSS] USGS Earthquake: 287 items
+2026-03-28 15:17:49 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:17:51 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:17:51 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:17:52 [INFO] [RSS] PRS Legislative: 39 items
+2026-03-28 15:17:54 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:17:54 [INFO] [RSS] Asianet News Kerala: 59 items
+2026-03-28 15:17:54 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:17:55 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:17:56 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:17:58 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:17:58 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:18:00 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:18:01 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:18:01 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:18:02 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:18:03 [WARNING] [RSS] PIB Press Release: 404 Not Found — https://pib.gov.in/rss.aspx
+2026-03-28 15:18:03 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:18:04 [WARNING] [RSS] Zee News: HTTP 403 — https://zeenews.india.com/rss/india.xml
+2026-03-28 15:18:11 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:18:11 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:18:12 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:18:13 [WARNING] [RSS] Business Standard: 404 Not Found — https://feeds.feedburner.com/business-standard/pFxy
+2026-03-28 15:18:14 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:18:15 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:18:15 [INFO] [RSS] MSEDCL Maharashtra: OK on retry 2 — 100 items
+2026-03-28 15:18:15 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:18:15 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:18:16 [INFO] [RSS] POSOCO Grid Operator: OK on retry 2 — 51 items
+2026-03-28 15:18:16 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:18:16 [WARNING] [RSS] Power TV Kannada: Connection error — https://powertvnews.com/feed
+2026-03-28 15:18:17 [INFO] [RSS] Thanthi TV: 64 items
+2026-03-28 15:18:17 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:18:18 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:18:20 [WARNING] [RSS] Telegraph India: 404 Not Found — https://feeds.feedburner.com/telegraphindia/AWHH
+2026-03-28 15:18:22 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:18:23 [WARNING] [RSS] HT Business: 404 Not Found — https://feeds.feedburner.com/HindustanTimesBusiness
+2026-03-28 15:18:23 [INFO] [RSS] Google: OK on retry 2 — 38 items
+2026-03-28 15:18:23 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:18:23 [INFO] [RSS] Google: 38 items
+2026-03-28 15:18:23 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:18:23 [WARNING] [RSS] Saam TV: HTTP 410 (gone) — https://saamtv.esakal.com/rss
+2026-03-28 15:18:23 [INFO] [RSS] Sakshi TV: 65 items
+2026-03-28 15:18:23 [WARNING] [RSS] Sun News Tamil: Connection error — https://sunnewslive.in/feed
+2026-03-28 15:18:23 [INFO] [RSS] Kalaignar Seithigal: 1 items
+2026-03-28 15:18:23 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:18:24 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:18:24 [WARNING] [RSS] PowerGrid Corporation: Connection error — https://news.google.com/rss/search?q=PowerGrid+Corporation+India&hl=en-IN&gl=IN&ceid=IN:en
+2026-03-28 15:18:25 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:18:26 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:18:26 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:18:27 [INFO] [RSS] NDTV Top Stories: OK on retry 2 — 20 items
+2026-03-28 15:18:27 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:18:27 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:18:27 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:18:29 [INFO] [RSS] CESC Kolkata: OK on retry 2 — 42 items
+2026-03-28 15:18:29 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:18:30 [INFO] [RSS] TANGEDCO Tamil Nadu: OK on retry 2 — 100 items
+2026-03-28 15:18:30 [INFO] [RSS] HESCOM Power News: OK on retry 2 — 15 items
+2026-03-28 15:18:30 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:18:30 [INFO] [RSS] HESCOM Power News: 15 items
+2026-03-28 15:18:31 [INFO] [RSS] NDTV Business: OK on retry 2 — 20 items
+2026-03-28 15:18:31 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:18:31 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:18:33 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:18:33 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:18:33 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:18:33 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:18:34 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:18:36 [WARNING] [RSS] Zee News: HTTP 403 — https://zeenews.india.com/rss/india.xml
+2026-03-28 15:18:37 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:18:38 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:18:39 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:18:39 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:18:39 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:18:39 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:18:40 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:18:41 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:18:41 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:18:41 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:18:41 [INFO] [RSS] Greater Kashmir: OK on retry 2 — 10 items
+2026-03-28 15:18:41 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:18:43 [INFO] [RSS] USGS Earthquake: 287 items
+2026-03-28 15:18:43 [INFO] [RSS] PRS Legislative: 39 items
+2026-03-28 15:18:44 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:18:45 [WARNING] [RSS] Zepto Blog: Connection error — https://www.zepto.co.in/blog/feed
+2026-03-28 15:18:45 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:18:46 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:18:46 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:18:47 [INFO] [RSS] Asianet News Kerala: 59 items
+2026-03-28 15:18:47 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:18:50 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:18:50 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:18:50 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:18:51 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:18:51 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:18:52 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:18:54 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:18:54 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:18:54 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:18:54 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:18:55 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:18:55 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:18:55 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:18:57 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:18:58 [INFO] [RSS] Goa Disaster Alerts: 35 items
+2026-03-28 15:18:59 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:18:59 [INFO] [RSS] Thanthi TV: 64 items
+2026-03-28 15:19:00 [WARNING] [RSS] Power TV Kannada: Connection error — https://powertvnews.com/feed
+2026-03-28 15:19:00 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:19:01 [INFO] [RSS] Assam Disaster Alerts: 68 items
+2026-03-28 15:19:01 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:19:01 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:19:02 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:19:02 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:19:02 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:19:02 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:19:03 [WARNING] [RSS] PIB Government Releases: 404 Not Found — https://pib.gov.in/rssfeed/rssfeeds.aspx
+2026-03-28 15:19:04 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:19:04 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:19:05 [INFO] [RSS] Arunachal Pradesh Disaster: 74 items
+2026-03-28 15:19:05 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:19:05 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:19:06 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:19:06 [INFO] [RSS] Sakshi TV: 65 items
+2026-03-28 15:19:07 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:19:07 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:19:07 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:19:07 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:19:08 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:19:08 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:19:08 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:19:09 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:19:11 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:19:11 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:19:11 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:19:11 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:19:11 [INFO] [RSS] HESCOM Power News: 15 items
+2026-03-28 15:19:11 [INFO] [RSS] Mizoram Disaster Alerts: 50 items
+2026-03-28 15:19:12 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:19:12 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:19:13 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:19:13 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:19:13 [INFO] [RSS] Andaman Nicobar Alerts: 44 items
+2026-03-28 15:19:13 [INFO] [RSS] Kalaignar Seithigal: 3 items
+2026-03-28 15:19:14 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:19:15 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:19:15 [INFO] [RSS] Punjab Disaster Alerts: 15 items
+2026-03-28 15:19:15 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:19:17 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:19:17 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:19:17 [INFO] [RSS] Uttarakhand Disaster Alerts: 100 items
+2026-03-28 15:19:18 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:19:18 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:19:18 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:19:19 [WARNING] [RSS] Zepto Blog: Connection error — https://www.zepto.co.in/blog/feed
+2026-03-28 15:19:19 [WARNING] [RSS] Sun News Tamil: Connection error — https://sunnewslive.in/feed
+2026-03-28 15:19:19 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:19:20 [INFO] [RSS] JK Disaster Alerts: 45 items
+2026-03-28 15:19:20 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:19:20 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:19:20 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:19:20 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:19:20 [WARNING] [RSS] Yahoo India News: HTTP 500 — https://in.news.yahoo.com/rss/
+2026-03-28 15:19:22 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:19:22 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:19:23 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:19:23 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:19:23 [INFO] [RSS] Puducherry Disaster Alerts: 29 items
+2026-03-28 15:19:24 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:19:25 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:19:25 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:19:25 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:19:25 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:19:26 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:19:27 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:19:27 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:19:27 [INFO] [RSS] Goa Disaster Alerts: 35 items
+2026-03-28 15:19:28 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:19:28 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:19:30 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:19:30 [INFO] [RSS] Arunachal Pradesh Disaster: 74 items
+2026-03-28 15:19:30 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:19:31 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:19:31 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:19:31 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:19:31 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:19:32 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:19:32 [INFO] [RSS] Assam Disaster Alerts: 68 items
+2026-03-28 15:19:32 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:19:32 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:19:33 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:19:33 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:19:34 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:19:35 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:19:35 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:19:35 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:19:36 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:19:36 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:19:37 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:19:38 [INFO] [RSS] Andaman Nicobar Alerts: 44 items
+2026-03-28 15:19:38 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:19:38 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:19:39 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:19:39 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:19:39 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:19:39 [INFO] [RSS] Puducherry Disaster Alerts: 29 items
+2026-03-28 15:19:39 [INFO] [RSS] Punjab Disaster Alerts: 15 items
+2026-03-28 15:19:40 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:19:40 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:19:40 [INFO] [RSS] Uttarakhand Disaster Alerts: 100 items
+2026-03-28 15:19:40 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:19:40 [INFO] [RSS] JK Disaster Alerts: 45 items
+2026-03-28 15:19:42 [INFO] [RSS] Mizoram Disaster Alerts: OK on retry 2 — 50 items
+2026-03-28 15:19:42 [INFO] [RSS] Mizoram Disaster Alerts: 50 items
+2026-03-28 15:19:46 [WARNING] [RSS] Yahoo India News: HTTP 500 — https://in.news.yahoo.com/rss/
+2026-03-28 15:19:58 [INFO] [Fetch] Complete: +2594 new articles saved | 2026-03-28 15:19:58
+2026-03-28 15:20:03 [INFO] [Fetch] Complete: +34 new articles saved | 2026-03-28 15:20:03
+2026-03-28 15:24:58 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:25:02 [INFO] [RSS] Google: 38 items
+2026-03-28 15:25:02 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:25:03 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:25:03 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:25:03 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:25:03 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:25:03 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:25:03 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:25:03 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:25:03 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:25:03 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:25:03 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:25:04 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:25:05 [WARNING] [RSS] Business Standard: 404 Not Found — https://feeds.feedburner.com/business-standard/pFxy
+2026-03-28 15:25:05 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:25:05 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:25:05 [WARNING] [RSS] HT Business: 404 Not Found — https://feeds.feedburner.com/HindustanTimesBusiness
+2026-03-28 15:25:07 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:25:07 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:25:08 [WARNING] [RSS] Telegraph India: 404 Not Found — https://feeds.feedburner.com/telegraphindia/AWHH
+2026-03-28 15:25:08 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:25:09 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:25:09 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:25:11 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:25:11 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:25:11 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:25:11 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:25:12 [INFO] [RSS] Asianet News Kerala: 59 items
+2026-03-28 15:25:12 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:25:12 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:25:12 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:25:12 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:25:12 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:25:13 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:25:17 [INFO] [RSS] USGS Earthquake: 284 items
+2026-03-28 15:25:17 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:25:18 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:25:18 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:25:18 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:25:18 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:25:19 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:25:19 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:25:20 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:25:21 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:25:21 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:25:22 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:25:22 [WARNING] [RSS] Zee News: HTTP 403 — https://zeenews.india.com/rss/india.xml
+2026-03-28 15:25:22 [INFO] [RSS] PRS Legislative: 37 items
+2026-03-28 15:25:22 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:25:22 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:25:22 [INFO] [RSS] HESCOM Power News: 14 items
+2026-03-28 15:25:23 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:25:23 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:25:24 [WARNING] [RSS] Power TV Kannada: Connection error — https://powertvnews.com/feed
+2026-03-28 15:25:26 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:25:27 [INFO] [RSS] Thanthi TV: 59 items
+2026-03-28 15:25:28 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:25:29 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:25:29 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:25:29 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:25:30 [INFO] [RSS] Sakshi TV: 64 items
+2026-03-28 15:25:31 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:25:31 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:25:33 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:25:33 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:25:34 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:25:34 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:25:34 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:25:35 [WARNING] [RSS] Sun News Tamil: Connection error — https://sunnewslive.in/feed
+2026-03-28 15:25:35 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:25:35 [INFO] [RSS] Kalaignar Seithigal: 3 items
+2026-03-28 15:25:35 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:25:37 [WARNING] [RSS] Zepto Blog: Connection error — https://www.zepto.co.in/blog/feed
+2026-03-28 15:25:37 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:25:39 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:25:39 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:25:40 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:25:41 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:25:41 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:25:42 [INFO] [RSS] Arunachal Pradesh Disaster: 74 items
+2026-03-28 15:25:42 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:25:42 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:25:42 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:25:42 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:25:43 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:25:43 [INFO] [RSS] Assam Disaster Alerts: 70 items
+2026-03-28 15:25:44 [INFO] [RSS] Goa Disaster Alerts: 35 items
+2026-03-28 15:25:44 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:25:44 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:25:45 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:25:45 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:25:46 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:25:46 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:25:46 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:25:48 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:25:48 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:25:48 [INFO] [RSS] Punjab Disaster Alerts: 16 items
+2026-03-28 15:25:48 [INFO] [RSS] Mizoram Disaster Alerts: 50 items
+2026-03-28 15:25:48 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:25:48 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:25:49 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:25:50 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:25:50 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:25:50 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:25:50 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:25:50 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:25:50 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:25:51 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:25:51 [INFO] [RSS] Andaman Nicobar Alerts: 43 items
+2026-03-28 15:25:51 [INFO] [RSS] JK Disaster Alerts: 48 items
+2026-03-28 15:25:51 [INFO] [RSS] Uttarakhand Disaster Alerts: 100 items
+2026-03-28 15:25:51 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:25:51 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:25:51 [INFO] [RSS] Puducherry Disaster Alerts: 27 items
+2026-03-28 15:25:51 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:25:55 [INFO] [Fetch] Complete: +78 new articles saved | 2026-03-28 15:25:55
+2026-03-28 15:30:55 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:30:58 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:30:59 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:30:59 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:31:00 [INFO] [RSS] Google: 38 items
+2026-03-28 15:31:00 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:31:00 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:31:00 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:31:00 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:31:00 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:31:01 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:31:01 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:31:01 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:31:01 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:31:01 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:31:02 [WARNING] [RSS] Business Standard: 404 Not Found — https://feeds.feedburner.com/business-standard/pFxy
+2026-03-28 15:31:03 [WARNING] [RSS] HT Business: 404 Not Found — https://feeds.feedburner.com/HindustanTimesBusiness
+2026-03-28 15:31:03 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:31:04 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:31:04 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:31:04 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:31:05 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:31:05 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:31:05 [WARNING] [RSS] Telegraph India: 404 Not Found — https://feeds.feedburner.com/telegraphindia/AWHH
+2026-03-28 15:31:06 [INFO] [RSS] Asianet News Kerala: 70 items
+2026-03-28 15:31:07 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:31:07 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:31:07 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:31:07 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:31:08 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:31:08 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:31:10 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:31:10 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:31:10 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:31:10 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:31:13 [INFO] [RSS] PRS Legislative: 37 items
+2026-03-28 15:31:13 [INFO] [RSS] USGS Earthquake: 282 items
+2026-03-28 15:31:15 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:31:15 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:31:15 [INFO] [RSS] RBI Press Releases: 49 items
+2026-03-28 15:31:16 [WARNING] [RSS] Latestly: HTTP 202 — https://www.latestly.com/rss/india-news.xml
+2026-03-28 15:31:16 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:31:17 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:31:17 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:31:17 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:31:18 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:31:18 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:31:19 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:31:20 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:31:21 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:31:21 [INFO] [RSS] CESC Kolkata: 35 items
+2026-03-28 15:31:21 [INFO] [RSS] HESCOM Power News: 15 items
+2026-03-28 15:31:22 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:31:22 [INFO] [RSS] Thanthi TV: 64 items
+2026-03-28 15:31:22 [WARNING] [RSS] Zee News: HTTP 403 — https://zeenews.india.com/rss/india.xml
+2026-03-28 15:31:22 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:31:22 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:31:23 [WARNING] [RSS] Power TV Kannada: Connection error — https://powertvnews.com/feed
+2026-03-28 15:31:24 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:31:24 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:31:27 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:31:28 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:31:28 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:31:30 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:31:30 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:31:30 [INFO] [RSS] Sakshi TV: 64 items
+2026-03-28 15:31:31 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:31:32 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:31:32 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:31:33 [WARNING] [RSS] Zepto Blog: Connection error — https://www.zepto.co.in/blog/feed
+2026-03-28 15:31:34 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:31:34 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:31:35 [INFO] [RSS] Kalaignar Seithigal: 3 items
+2026-03-28 15:31:36 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:31:36 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:31:36 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:31:37 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:31:38 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:31:38 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:31:39 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:31:40 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:31:40 [WARNING] [RSS] Sun News Tamil: Connection error — https://sunnewslive.in/feed
+2026-03-28 15:31:41 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:31:41 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:31:42 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:31:42 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:31:42 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:31:43 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:31:44 [INFO] [RSS] Arunachal Pradesh Disaster: 72 items
+2026-03-28 15:31:44 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:31:44 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:31:44 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:31:44 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:31:45 [INFO] [RSS] Assam Disaster Alerts: 69 items
+2026-03-28 15:31:45 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:31:45 [INFO] [RSS] Goa Disaster Alerts: 35 items
+2026-03-28 15:31:45 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:31:45 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:31:47 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:31:47 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:31:47 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:31:48 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:31:48 [INFO] [RSS] Mizoram Disaster Alerts: 50 items
+2026-03-28 15:31:49 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:31:49 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:31:49 [INFO] [RSS] Uttarakhand Disaster Alerts: 89 items
+2026-03-28 15:31:49 [INFO] [RSS] Punjab Disaster Alerts: 16 items
+2026-03-28 15:31:49 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:31:50 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:31:50 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:31:50 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:31:51 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:31:51 [INFO] [RSS] Andaman Nicobar Alerts: 44 items
+2026-03-28 15:31:52 [INFO] [RSS] JK Disaster Alerts: 37 items
+2026-03-28 15:31:52 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:31:52 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:31:52 [INFO] [RSS] Puducherry Disaster Alerts: 28 items
+2026-03-28 15:31:57 [INFO] [Fetch] Complete: +137 new articles saved | 2026-03-28 15:31:57
+2026-03-28 15:36:58 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:37:01 [INFO] [RSS] Google: 38 items
+2026-03-28 15:37:03 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:37:03 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:37:03 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:37:03 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:37:03 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:37:03 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:37:03 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:37:03 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:37:03 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:37:03 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:37:04 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:37:04 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:37:05 [WARNING] [RSS] HT Business: 404 Not Found — https://feeds.feedburner.com/HindustanTimesBusiness
+2026-03-28 15:37:05 [WARNING] [FeedHealth] DISABLED after 5 failures: HT Business
+2026-03-28 15:37:05 [WARNING] [RSS] Business Standard: 404 Not Found — https://feeds.feedburner.com/business-standard/pFxy
+2026-03-28 15:37:05 [WARNING] [FeedHealth] DISABLED after 5 failures: Business Standard
+2026-03-28 15:37:05 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:37:05 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:37:06 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:37:07 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:37:07 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:37:07 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:37:07 [WARNING] [RSS] Telegraph India: 404 Not Found — https://feeds.feedburner.com/telegraphindia/AWHH
+2026-03-28 15:37:07 [WARNING] [FeedHealth] DISABLED after 5 failures: Telegraph India
+2026-03-28 15:37:08 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:37:08 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:37:08 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:37:08 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:37:08 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:37:08 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:37:09 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:37:09 [INFO] [RSS] Asianet News Kerala: 75 items
+2026-03-28 15:37:09 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:37:09 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:37:09 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:37:10 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:37:10 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:37:12 [INFO] [RSS] USGS Earthquake: 280 items
+2026-03-28 15:37:12 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:37:12 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:37:12 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:37:12 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:37:13 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:37:13 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:37:13 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:37:13 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:37:13 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:37:13 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:37:14 [WARNING] [RSS] PIB Press Release: 404 Not Found — https://pib.gov.in/rss.aspx
+2026-03-28 15:37:14 [INFO] [RSS] PRS Legislative: 38 items
+2026-03-28 15:37:14 [WARNING] [FeedHealth] DISABLED after 5 failures: Free Press Journal
+2026-03-28 15:37:17 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:37:17 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:37:17 [INFO] [RSS] HESCOM Power News: 15 items
+2026-03-28 15:37:17 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:37:17 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:37:17 [INFO] [RSS] MESCOM Power News: 38 items
+2026-03-28 15:37:18 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:37:18 [INFO] [RSS] Thanthi TV: 65 items
+2026-03-28 15:37:18 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:37:19 [WARNING] [RSS] Power TV Kannada: Connection error — https://powertvnews.com/feed
+2026-03-28 15:37:19 [WARNING] [FeedHealth] DISABLED after 5 failures: Power TV Kannada
+2026-03-28 15:37:19 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:37:20 [WARNING] [RSS] Zee News: HTTP 403 — https://zeenews.india.com/rss/india.xml
+2026-03-28 15:37:20 [WARNING] [FeedHealth] DISABLED after 5 failures: Zee News
+2026-03-28 15:37:21 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:37:22 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:37:22 [INFO] [RSS] Kalaignar Seithigal: 3 items
+2026-03-28 15:37:22 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:37:23 [INFO] [RSS] Sakshi TV: 65 items
+2026-03-28 15:37:23 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:37:24 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:37:25 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:37:25 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:37:26 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:37:26 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:37:27 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:37:27 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:37:27 [WARNING] [RSS] Zepto Blog: Connection error — https://www.zepto.co.in/blog/feed
+2026-03-28 15:37:27 [WARNING] [FeedHealth] DISABLED after 5 failures: Zepto Blog
+2026-03-28 15:37:28 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:37:28 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:37:28 [WARNING] [RSS] Sun News Tamil: Connection error — https://sunnewslive.in/feed
+2026-03-28 15:37:28 [WARNING] [FeedHealth] DISABLED after 5 failures: Sun News Tamil
+2026-03-28 15:37:28 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:37:29 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:37:30 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:37:31 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:37:31 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:37:34 [INFO] [RSS] Assam Disaster Alerts: 70 items
+2026-03-28 15:37:34 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:37:34 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:37:34 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:37:34 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:37:34 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:37:34 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:37:34 [INFO] [RSS] Arunachal Pradesh Disaster: 74 items
+2026-03-28 15:37:34 [INFO] [RSS] Goa Disaster Alerts: 35 items
+2026-03-28 15:37:35 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:37:35 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:37:35 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:37:35 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:37:36 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:37:36 [INFO] [RSS] Mizoram Disaster Alerts: 50 items
+2026-03-28 15:37:36 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:37:37 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:37:39 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:37:39 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:37:39 [INFO] [RSS] Punjab Disaster Alerts: 16 items
+2026-03-28 15:37:39 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:37:39 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:37:40 [INFO] [RSS] Uttarakhand Disaster Alerts: 89 items
+2026-03-28 15:37:40 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:37:40 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:37:40 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:37:40 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:37:40 [INFO] [RSS] Lakshadweep Alerts: 28 items
+2026-03-28 15:37:40 [INFO] [RSS] JK Disaster Alerts: 45 items
+2026-03-28 15:37:40 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:37:40 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:37:40 [INFO] [RSS] Andaman Nicobar Alerts: 43 items
+2026-03-28 15:37:40 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:37:41 [INFO] [RSS] Puducherry Disaster Alerts: 27 items
+2026-03-28 15:37:46 [INFO] [Fetch] Complete: +54 new articles saved | 2026-03-28 15:37:46
+2026-03-28 15:42:46 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:42:51 [INFO] [RSS] Google: 38 items
+2026-03-28 15:42:52 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:42:52 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:42:52 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:42:53 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:42:53 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:42:53 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:42:53 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:42:53 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:42:53 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:42:53 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:42:53 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:42:53 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:42:54 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:42:54 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:42:56 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:42:57 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:42:57 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:42:57 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:42:58 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:42:58 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:42:58 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:42:58 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:42:58 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:42:59 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:42:59 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:42:59 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:42:59 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:43:00 [INFO] [RSS] Asianet News Kerala: 77 items
+2026-03-28 15:43:00 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:43:00 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:43:03 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:43:03 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:43:03 [INFO] [RSS] PRS Legislative: 37 items
+2026-03-28 15:43:03 [INFO] [RSS] USGS Earthquake: 280 items
+2026-03-28 15:43:03 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:43:03 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:43:03 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:43:04 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:43:05 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:43:06 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:43:07 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:43:10 [INFO] [RSS] HESCOM Power News: 15 items
+2026-03-28 15:43:11 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:43:11 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:43:11 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:43:12 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:43:12 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:43:12 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:43:12 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:43:13 [INFO] [RSS] Thanthi TV: 65 items
+2026-03-28 15:43:13 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:43:13 [INFO] [RSS] Kalaignar Seithigal: 3 items
+2026-03-28 15:43:15 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:43:15 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:43:16 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:43:16 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:43:16 [INFO] [RSS] Sakshi TV: 65 items
+2026-03-28 15:43:17 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:43:18 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:43:19 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:43:19 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:43:20 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:43:20 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:43:21 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:43:22 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:43:24 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:43:24 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:43:24 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:43:25 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:43:25 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:43:25 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:43:26 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:43:26 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:43:27 [INFO] [RSS] Arunachal Pradesh Disaster: 74 items
+2026-03-28 15:43:27 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:43:29 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:43:30 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:43:30 [INFO] [RSS] Goa Disaster Alerts: 36 items
+2026-03-28 15:43:31 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:43:31 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:43:31 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:43:31 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:43:32 [INFO] [RSS] Assam Disaster Alerts: 70 items
+2026-03-28 15:43:32 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:43:33 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:43:34 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:43:34 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:43:34 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:43:37 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:43:37 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:43:38 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:43:38 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:43:38 [INFO] [RSS] Uttarakhand Disaster Alerts: 89 items
+2026-03-28 15:43:38 [WARNING] [RSS] PIB Government Releases: 404 Not Found — https://pib.gov.in/rssfeed/rssfeeds.aspx
+2026-03-28 15:43:38 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:43:39 [INFO] [RSS] Andaman Nicobar Alerts: 43 items
+2026-03-28 15:43:39 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:43:39 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:43:40 [INFO] [RSS] Puducherry Disaster Alerts: 27 items
+2026-03-28 15:43:44 [INFO] [RSS] MP Disaster Alerts: OK on retry 2 — 1 items
+2026-03-28 15:43:44 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:43:44 [INFO] [RSS] JK Disaster Alerts: 37 items
+2026-03-28 15:43:44 [INFO] [RSS] Meghalaya Disaster Alerts: OK on retry 2 — 49 items
+2026-03-28 15:43:44 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:43:44 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:43:45 [INFO] [RSS] Mizoram Disaster Alerts: OK on retry 2 — 51 items
+2026-03-28 15:43:45 [INFO] [RSS] Mizoram Disaster Alerts: 51 items
+2026-03-28 15:43:45 [INFO] [RSS] Manipur Disaster Alerts: OK on retry 2 — 77 items
+2026-03-28 15:43:45 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:43:47 [INFO] [RSS] Punjab Disaster Alerts: OK on retry 2 — 16 items
+2026-03-28 15:43:47 [INFO] [RSS] Punjab Disaster Alerts: 16 items
+2026-03-28 15:43:47 [INFO] [RSS] Tamil Nadu Disaster Alerts: OK on retry 2 — 8 items
+2026-03-28 15:43:47 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:43:47 [INFO] [RSS] Chandigarh Alerts: OK on retry 2 — 59 items
+2026-03-28 15:43:47 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:43:56 [INFO] [Fetch] Complete: +313 new articles saved | 2026-03-28 15:43:56
+2026-03-28 15:48:57 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:49:02 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:49:03 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:49:03 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:49:03 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:49:03 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:49:03 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:49:03 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:49:03 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:49:04 [INFO] [RSS] Google: 38 items
+2026-03-28 15:49:04 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:49:04 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:49:04 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:49:05 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:49:07 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:49:07 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:49:07 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:49:07 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:49:07 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:49:08 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:49:08 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:49:08 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:49:08 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:49:08 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:49:09 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:49:09 [INFO] [RSS] Asianet News Kerala: 77 items
+2026-03-28 15:49:09 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:49:10 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:49:10 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:49:10 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:49:10 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:49:10 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:49:10 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:49:11 [INFO] [RSS] USGS Earthquake: 281 items
+2026-03-28 15:49:11 [INFO] [RSS] PRS Legislative: 37 items
+2026-03-28 15:49:11 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:49:12 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:49:12 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:49:12 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:49:12 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:49:13 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:49:13 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:49:14 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:49:14 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:49:14 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:49:16 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:49:19 [WARNING] [RSS] PIB Press Release: 404 Not Found — https://pib.gov.in/rss.aspx
+2026-03-28 15:49:20 [WARNING] [RSS] Latestly: HTTP 202 — https://www.latestly.com/rss/india-news.xml
+2026-03-28 15:49:21 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:49:22 [INFO] [RSS] HESCOM Power News: 15 items
+2026-03-28 15:49:22 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:49:22 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:49:22 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:49:22 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:49:24 [INFO] [RSS] Thanthi TV: 65 items
+2026-03-28 15:49:25 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:49:28 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:49:28 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:49:29 [INFO] [RSS] Sakshi TV: 65 items
+2026-03-28 15:49:30 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:49:30 [WARNING] [RSS] PTC News: Connection error — https://www.ptcnews.tv/feed
+2026-03-28 15:49:31 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:49:31 [WARNING] [RSS] News18 Punjab: Connection error — https://punjab.news18.com/rss
+2026-03-28 15:49:32 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:49:32 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:49:33 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:49:34 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:49:34 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:49:35 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:49:35 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:49:35 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:49:36 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:49:37 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:49:37 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:49:37 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:49:37 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:49:38 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:49:38 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:49:38 [INFO] [RSS] Assam Disaster Alerts: 70 items
+2026-03-28 15:49:39 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:49:39 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:49:39 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:49:39 [INFO] [RSS] Arunachal Pradesh Disaster: 73 items
+2026-03-28 15:49:41 [INFO] [RSS] Kalaignar Seithigal: OK on retry 2 — 3 items
+2026-03-28 15:49:41 [INFO] [RSS] Kalaignar Seithigal: 3 items
+2026-03-28 15:49:41 [INFO] [RSS] Goa Disaster Alerts: 37 items
+2026-03-28 15:49:41 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:49:42 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:49:42 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:49:42 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:49:42 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:49:42 [INFO] [RSS] Karnataka Disaster Alerts: 49 items
+2026-03-28 15:49:43 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:49:43 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:49:43 [INFO] [RSS] Mizoram Disaster Alerts: 38 items
+2026-03-28 15:49:44 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:49:45 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:49:45 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:49:45 [WARNING] [RSS] PIB Government Releases: 404 Not Found — https://pib.gov.in/rssfeed/rssfeeds.aspx
+2026-03-28 15:49:45 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:49:45 [INFO] [RSS] Punjab Disaster Alerts: 16 items
+2026-03-28 15:49:45 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:49:45 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:49:46 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:49:46 [INFO] [RSS] Tripura Disaster Alerts: 55 items
+2026-03-28 15:49:46 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:49:47 [INFO] [RSS] Andaman Nicobar Alerts: 42 items
+2026-03-28 15:49:48 [INFO] [RSS] Uttarakhand Disaster Alerts: 83 items
+2026-03-28 15:49:48 [INFO] [RSS] JK Disaster Alerts: 37 items
+2026-03-28 15:49:48 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:49:48 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:49:48 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:49:48 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:49:48 [INFO] [RSS] Chandigarh Alerts: 58 items
+2026-03-28 15:49:48 [INFO] [RSS] Puducherry Disaster Alerts: 27 items
+2026-03-28 15:49:52 [INFO] [Fetch] Complete: +93 new articles saved | 2026-03-28 15:49:52
+2026-03-28 15:54:53 [INFO] [Fetch] Starting: 146 feeds
+2026-03-28 15:54:56 [INFO] [RSS] Money Control: 15 items
+2026-03-28 15:54:57 [INFO] [RSS] Indian Express: 200 items
+2026-03-28 15:54:57 [INFO] [RSS] TOI India: 20 items
+2026-03-28 15:54:57 [INFO] [RSS] TOI Business: 20 items
+2026-03-28 15:54:57 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:54:57 [INFO] [RSS] Mint: 35 items
+2026-03-28 15:54:57 [INFO] [RSS] ET Markets: 50 items
+2026-03-28 15:54:57 [INFO] [RSS] Google: 38 items
+2026-03-28 15:54:57 [INFO] [RSS] Economic Times: 76 items
+2026-03-28 15:54:57 [INFO] [RSS] Times of India: 19 items
+2026-03-28 15:54:57 [INFO] [RSS] The Hindu: 60 items
+2026-03-28 15:54:57 [INFO] [RSS] IE Business: 200 items
+2026-03-28 15:54:58 [INFO] [RSS] NDTV Top Stories: 20 items
+2026-03-28 15:54:58 [INFO] [RSS] NDTV India: 20 items
+2026-03-28 15:54:59 [INFO] [RSS] NDTV Business: 20 items
+2026-03-28 15:55:00 [INFO] [RSS] India Today: 133 items
+2026-03-28 15:55:00 [INFO] [RSS] News18 India: 200 items
+2026-03-28 15:55:00 [INFO] [RSS] India TV: 20 items
+2026-03-28 15:55:00 [INFO] [RSS] TOI Chennai: 20 items
+2026-03-28 15:55:01 [INFO] [RSS] Rediff News: 51 items
+2026-03-28 15:55:01 [INFO] [RSS] TOI Delhi: 20 items
+2026-03-28 15:55:01 [INFO] [RSS] TOI Mumbai: 20 items
+2026-03-28 15:55:02 [INFO] [RSS] Greater Kashmir: 10 items
+2026-03-28 15:55:02 [INFO] [RSS] TOI Bangalore: 20 items
+2026-03-28 15:55:02 [INFO] [RSS] Odisha TV: 50 items
+2026-03-28 15:55:02 [INFO] [RSS] Asianet News Kerala: 77 items
+2026-03-28 15:55:03 [INFO] [RSS] Public TV Karnataka: 10 items
+2026-03-28 15:55:03 [INFO] [RSS] OneIndia: 30 items
+2026-03-28 15:55:03 [INFO] [RSS] TOI Hyderabad: 20 items
+2026-03-28 15:55:03 [INFO] [RSS] Lokmat: 100 items
+2026-03-28 15:55:03 [INFO] [RSS] TOI Kolkata: 20 items
+2026-03-28 15:55:03 [INFO] [RSS] WHO News: 25 items
+2026-03-28 15:55:04 [INFO] [RSS] USGS Earthquake: 282 items
+2026-03-28 15:55:04 [INFO] [RSS] PRS Legislative: 37 items
+2026-03-28 15:55:05 [INFO] [RSS] RBI Press Releases: 58 items
+2026-03-28 15:55:05 [INFO] [RSS] GDACS Disaster: 149 items
+2026-03-28 15:55:06 [INFO] [RSS] ReliefWeb India: 20 items
+2026-03-28 15:55:06 [INFO] [RSS] TANGEDCO Tamil Nadu: 100 items
+2026-03-28 15:55:06 [INFO] [RSS] CESC Kolkata: 42 items
+2026-03-28 15:55:06 [INFO] [RSS] PowerGrid Corporation: 100 items
+2026-03-28 15:55:06 [INFO] [RSS] POSOCO Grid Operator: 51 items
+2026-03-28 15:55:07 [INFO] [RSS] Energy News India: 10 items
+2026-03-28 15:55:07 [INFO] [RSS] SEBI News: 30 items
+2026-03-28 15:55:08 [INFO] [RSS] MSEDCL Maharashtra: 100 items
+2026-03-28 15:55:08 [INFO] [RSS] MESCOM Power News: 50 items
+2026-03-28 15:55:08 [WARNING] [RSS] Latestly: HTTP 202 — https://www.latestly.com/rss/india-news.xml
+2026-03-28 15:55:09 [INFO] [RSS] HESCOM Power News: 14 items
+2026-03-28 15:55:11 [INFO] [RSS] Telangana Today: 500 items
+2026-03-28 15:55:11 [INFO] [RSS] BESCOM Power Cut News: 100 items
+2026-03-28 15:55:11 [INFO] [RSS] Zepto Blog: 10 items
+2026-03-28 15:55:11 [INFO] [RSS] TV9 Kannada: 60 items
+2026-03-28 15:55:12 [INFO] [RSS] Thanthi TV: 65 items
+2026-03-28 15:55:12 [INFO] [RSS] 24 News Malayalam: 10 items
+2026-03-28 15:55:13 [INFO] [RSS] V6 News Telangana: 50 items
+2026-03-28 15:55:13 [INFO] [RSS] TV9 Telugu: 60 items
+2026-03-28 15:55:14 [INFO] [RSS] Swiggy Blog: 10 items
+2026-03-28 15:55:14 [INFO] [RSS] Kalaignar Seithigal: 4 items
+2026-03-28 15:55:14 [INFO] [RSS] NTV Telugu: 60 items
+2026-03-28 15:55:15 [INFO] [RSS] TV9 Marathi: 60 items
+2026-03-28 15:55:15 [INFO] [RSS] Zee 24 Ghanta: 100 items
+2026-03-28 15:55:16 [INFO] [RSS] TV9 Gujarati: 50 items
+2026-03-28 15:55:17 [INFO] [RSS] ABP Asmita: 100 items
+2026-03-28 15:55:17 [INFO] [RSS] Sakshi TV: 65 items
+2026-03-28 15:55:17 [INFO] [RSS] Google News India: 38 items
+2026-03-28 15:55:18 [INFO] [RSS] ABP Majha: 100 items
+2026-03-28 15:55:19 [INFO] [RSS] Google News World: 38 items
+2026-03-28 15:55:19 [INFO] [RSS] TSSPDCL Telangana: 100 items
+2026-03-28 15:55:20 [INFO] [RSS] Reddit India: 25 items
+2026-03-28 15:55:20 [INFO] [RSS] Reddit World News: 25 items
+2026-03-28 15:55:20 [INFO] [RSS] Yahoo News World: 50 items
+2026-03-28 15:55:21 [INFO] [RSS] Grofers Milkbasket: 100 items
+2026-03-28 15:55:22 [INFO] [RSS] JioMart Updates: 53 items
+2026-03-28 15:55:22 [INFO] [RSS] IMD Weather Alerts: 1 items
+2026-03-28 15:55:22 [INFO] [RSS] Flipkart Minutes: 100 items
+2026-03-28 15:55:22 [INFO] [RSS] AP Disaster Alerts: 35 items
+2026-03-28 15:55:23 [INFO] [RSS] Amazon Fresh India: 100 items
+2026-03-28 15:55:24 [INFO] [RSS] Chhattisgarh Disaster Alerts: 5 items
+2026-03-28 15:55:24 [INFO] [RSS] Goa Disaster Alerts: 35 items
+2026-03-28 15:55:25 [INFO] [RSS] Arunachal Pradesh Disaster: 74 items
+2026-03-28 15:55:25 [INFO] [RSS] Blinkit Blog: 10 items
+2026-03-28 15:55:25 [INFO] [RSS] Karnataka Disaster Alerts: 40 items
+2026-03-28 15:55:26 [INFO] [RSS] HP Disaster Alerts: 100 items
+2026-03-28 15:55:26 [INFO] [RSS] Bihar Disaster Alerts: 7 items
+2026-03-28 15:55:26 [INFO] [RSS] MP Disaster Alerts: 1 items
+2026-03-28 15:55:26 [INFO] [RSS] Kerala Disaster Alerts: 32 items
+2026-03-28 15:55:27 [INFO] [RSS] Assam Disaster Alerts: 70 items
+2026-03-28 15:55:27 [INFO] [RSS] Haryana Disaster Alerts: 1 items
+2026-03-28 15:55:27 [INFO] [RSS] Gujarat Disaster Alerts: 8 items
+2026-03-28 15:55:27 [INFO] [RSS] Manipur Disaster Alerts: 77 items
+2026-03-28 15:55:28 [INFO] [RSS] Mizoram Disaster Alerts: 51 items
+2026-03-28 15:55:28 [INFO] [RSS] Nagaland Disaster Alerts: 53 items
+2026-03-28 15:55:28 [INFO] [RSS] Punjab Disaster Alerts: 16 items
+2026-03-28 15:55:29 [INFO] [RSS] Rajasthan Disaster Alerts: 46 items
+2026-03-28 15:55:29 [WARNING] [RSS] PIB Government Releases: 404 Not Found — https://pib.gov.in/rssfeed/rssfeeds.aspx
+2026-03-28 15:55:29 [INFO] [RSS] Meghalaya Disaster Alerts: 49 items
+2026-03-28 15:55:30 [INFO] [RSS] Odisha Disaster Alerts: 25 items
+2026-03-28 15:55:30 [INFO] [RSS] Tamil Nadu Disaster Alerts: 8 items
+2026-03-28 15:55:30 [INFO] [RSS] Telangana Disaster Alerts: 2 items
+2026-03-28 15:55:31 [INFO] [RSS] Tripura Disaster Alerts: 56 items
+2026-03-28 15:55:31 [INFO] [RSS] Sikkim Disaster Alerts: 52 items
+2026-03-28 15:55:31 [INFO] [RSS] Uttarakhand Disaster Alerts: 89 items
+2026-03-28 15:55:31 [INFO] [RSS] UP Disaster Alerts: 6 items
+2026-03-28 15:55:31 [INFO] [RSS] Delhi Disaster Alerts: 5 items
+2026-03-28 15:55:31 [INFO] [RSS] Ladakh Disaster Alerts: 11 items
+2026-03-28 15:55:31 [INFO] [RSS] Lakshadweep Alerts: 32 items
+2026-03-28 15:55:32 [INFO] [RSS] Andaman Nicobar Alerts: 43 items
+2026-03-28 15:55:32 [INFO] [RSS] DNH Daman Diu Alerts: 37 items
+2026-03-28 15:55:32 [INFO] [RSS] Puducherry Disaster Alerts: 27 items
+2026-03-28 15:55:32 [INFO] [RSS] Chandigarh Alerts: 59 items
+2026-03-28 15:55:32 [INFO] [RSS] JK Disaster Alerts: 45 items
+2026-03-28 15:55:36 [INFO] [Fetch] Complete: +58 new articles saved | 2026-03-28 15:55:36
