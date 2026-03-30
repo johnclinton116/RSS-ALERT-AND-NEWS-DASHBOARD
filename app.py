@@ -977,6 +977,8 @@ def init_db():
                         ('admin', hash_pw('admin@123'), 'Administrator', 'admin', 1, datetime.now().isoformat()))
             cur.execute("IF NOT EXISTS (SELECT 1 FROM users WHERE username='icomply') INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
                         ('icomply', hash_pw('m00se@123'), 'Support', 'admin', 1, datetime.now().isoformat()))
+            cur.execute("IF NOT EXISTS (SELECT 1 FROM users WHERE username='john') INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
+                        ('john', hash_pw('123456'), 'John', 'viewer', 1, datetime.now().isoformat()))
             conn.commit()
             print("[DB] MSSQL ready")
         else:
@@ -1045,6 +1047,9 @@ def init_db():
             if not c.execute("SELECT 1 FROM users WHERE username='icomply'").fetchone():
                 c.execute("INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
                           ('icomply', hash_pw('m00se@123'), 'Support', 'admin', 1, datetime.now().isoformat()))
+            if not c.execute("SELECT 1 FROM users WHERE username='john'").fetchone():
+                c.execute("INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,?,?)",
+                          ('john', hash_pw('123456'), 'John', 'viewer', 1, datetime.now().isoformat()))
             conn.commit()
     finally:
         conn.close()
@@ -6492,9 +6497,14 @@ def api_change_password():
             row = conn.execute("SELECT password_hash FROM users WHERE id=?", (u['id'],)).fetchone()
             ph = row['password_hash'] if row else None
         if ph != hash_pw(old_pw): return jsonify({"ok": False, "error": "Current password incorrect"})
-        if USE_MSSQL: conn.cursor().execute("UPDATE users SET password_hash=? WHERE id=?", (hash_pw(new_pw), u['id']))
-        else: conn.execute("UPDATE users SET password_hash=? WHERE id=?", (hash_pw(new_pw), u['id']))
-        conn.commit(); return jsonify({"ok": True})
+        new_hash = hash_pw(new_pw)
+        if USE_MSSQL: conn.cursor().execute("UPDATE users SET password_hash=? WHERE id=?", (new_hash, u['id']))
+        else: conn.execute("UPDATE users SET password_hash=? WHERE id=?", (new_hash, u['id']))
+        conn.commit()
+        # Refresh session so new password is active immediately (no revert on next page load)
+        session['user'] = dict(u)
+        session.modified = True
+        return jsonify({"ok": True})
     finally:
         conn.close()
 
@@ -6850,7 +6860,7 @@ def api_set_fetch_interval():
     FETCH_INTERVAL=mins*60
     conn=get_db()
     try:
-        if USE_MSSQL:
+        if USE_MSSQL and not _using_sqlite_fallback:
             cur=conn.cursor();cur.execute("IF EXISTS(SELECT 1 FROM settings WHERE skey='fetch_interval') UPDATE settings SET svalue=? WHERE skey='fetch_interval' ELSE INSERT INTO settings(skey,svalue) VALUES('fetch_interval',?)",(str(mins),str(mins)))
         else: conn.execute("INSERT OR REPLACE INTO settings(skey,svalue) VALUES('fetch_interval',?)",(str(mins),))
         conn.commit();return jsonify({"ok":True,"minutes":mins})
