@@ -749,6 +749,21 @@ def _get_sqlite_fallback():
     c.execute("""CREATE TABLE IF NOT EXISTS custom_feeds (
         id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL,
         url TEXT UNIQUE NOT NULL, is_active INTEGER DEFAULT 1, created_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS article_remarks (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, article_id TEXT, user_id INTEGER,
+        username TEXT, full_name TEXT, remark TEXT, created_at TEXT, updated_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS news_assignments (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, article_id TEXT, assigned_by INTEGER,
+        assigned_to INTEGER, assigned_at TEXT, note TEXT DEFAULT '')""")
+    c.execute("""CREATE TABLE IF NOT EXISTS chat_messages (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, from_user_id INTEGER, to_user_id INTEGER,
+        message TEXT, article_id TEXT, is_read INTEGER DEFAULT 0, created_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS login_device_log (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER, username TEXT,
+        ip TEXT, user_agent TEXT, login_at TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS feed_health_log (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, feed_name TEXT, url TEXT,
+        status TEXT, item_count INTEGER, error_msg TEXT, checked_at TEXT)""")
     # Default users
     if not c.execute("SELECT 1 FROM users WHERE username='admin'").fetchone():
         c.execute("INSERT INTO users (username,password_hash,full_name,role,is_active,created_at) VALUES (?,?,?,?,1,?)",
