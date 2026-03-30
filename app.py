@@ -709,6 +709,15 @@ def _check_net_status():
 
 def _get_sqlite_fallback():
     """Return a SQLite connection as fallback when MSSQL is unavailable."""
+    global DB_PATH
+    # Ensure DB_PATH is writable — fall back to /tmp on read-only filesystems (e.g. Vercel)
+    try:
+        os.makedirs(os.path.dirname(DB_PATH) if os.path.dirname(DB_PATH) else ".", exist_ok=True)
+        _probe = DB_PATH + ".probe"
+        open(_probe, "a").close()
+        os.remove(_probe)
+    except OSError:
+        DB_PATH = "/tmp/news_fallback.db"
     conn = _sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
     conn.row_factory = _sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
